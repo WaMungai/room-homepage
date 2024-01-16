@@ -7,7 +7,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <header className="absolute z-10 p-8 w-full items-center justify-center lg:items-center lg:justify-start ">
+      <header className="absolute z-10 p-8 w-full flex items-center justify-center lg:items-center lg:justify-start ">
         <div>
           <img src={logo} className="lg:mr-8" alt="" />
         </div>
